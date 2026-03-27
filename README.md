@@ -26,34 +26,6 @@ Se han utilizado diferentes prefijos IPv6 para las redes LAN y los enlaces entre
 
 ## Tabla de routing IPv6
 Se ha comprobado la tabla de rutas IPv6 con el comando:
-# Enrutamiento IPv6
-
-## Descripción
-En este proyecto se ha diseñado y configurado una red con varios routers utilizando direcciones IPv6 en Cisco Packet Tracer.
-
-Se ha habilitado el enrutamiento IPv6 en los routers y se han configurado rutas dinámicas para permitir la comunicación entre diferentes redes IPv6.
-
-## Topología de red
-La red está formada por varios routers conectados mediante enlaces serial y diferentes redes LAN IPv6 conectadas a cada router.
-
-![Topología](img/topologia.png)
-
-## Direccionamiento IPv6
-Se han utilizado diferentes prefijos IPv6 para las redes LAN y los enlaces entre routers, por ejemplo:
-
-- 2001:A:A:A::/64
-- 2001:A:A:B::/64
-- 2001:A:A:C::/64
-- 2001:A:A:D::/64
-- 2001:A:A:E::/64
-- 2025:A:A:A::/64
-- 2026:A:A:A::/64
-- 2027:A:A:A::/64
-- 2028:A:A:A::/64
-- 2030:A:A:A::/64
-
-## Tabla de routing IPv6
-Se ha comprobado la tabla de rutas IPv6 con el comando:
 show ipv6 route
 
 En la tabla de rutas se pueden observar:
