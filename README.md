@@ -45,6 +45,7 @@ También se pueden comprobar los saltos entre routers mediante:
 traceroute 2026:A:A:A::2
 
 ![Ping IPv6](img/ping.png)
+
 ![Traceroute IPv6](img/traceroute.png)
 
 ## Comandos utilizados
