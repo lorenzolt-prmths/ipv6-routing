@@ -34,6 +34,20 @@ via FE80::201:C9FF:FE92:70B4, Serial0/3/0
 
 Esto significa que los routers utilizan direcciones IPv6 link-local para comunicarse entre ellos y reenviar el tráfico hacia las diferentes redes IPv6.
 
+## Interfaces IPv6
+Se han configurado direcciones IPv6 en las interfaces de los routers. Se puede comprobar con el comando:
+show ipv6 interface brief
+
+![Interfaces IPv6](img/show-ipv6-interface.png)
+
+## Vecinos IPv6
+Se han comprobado los routers vecinos mediante el comando:
+show ipv6 neighbors
+
+Este comando muestra las direcciones IPv6 y las interfaces de los dispositivos vecinos en la red.
+
+![Vecinos IPv6](img/show-ipv6-neighbors.png)
+
 ## Tabla de routing IPv6
 Se ha comprobado la tabla de rutas IPv6 con el comando:
 show ipv6 route
@@ -55,7 +69,6 @@ También se pueden comprobar los saltos entre routers mediante:
 traceroute 2026:A:A:A::2
 
 ![Ping IPv6](img/ping.png)
-
 ![Traceroute IPv6](img/traceroute.png)
 
 ## Comandos utilizados
@@ -77,5 +90,7 @@ show ipv6 neighbors
 - Habilitar enrutamiento IPv6
 - Configurar enrutamiento IPv6 por alias
 - Establecer conectividad entre redes
+- Comprobar interfaces IPv6
+- Comprobar vecinos IPv6
 - Comprobar la tabla de rutas
 - Verificar conectividad mediante ping y traceroute
